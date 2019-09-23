@@ -1,10 +1,11 @@
 body{
-	background:white;
+	background:#84520F;
 }
 
 h1{
-color:black;
+color:white;
 text-align: center;
+font-family: Times New Roman;
 
 }
 
@@ -14,26 +15,37 @@ list-style-type: none;
 margin:0;
 padding:0;
 overflow:hidden;
-background-color: #222;
+background-color: black;
 
 }
 
 
 
 li a {
-display:block;
-color:white;
+display: block;
+color: white;
 text-align: center;
-padding:14px 16px;
-text-decoration:none;
+padding: 14px 16px;
+text-decoration: none;
 
 
 }
 
-li{
 
-
-
+li {
 	float:left;
 }
-</body>
+
+
+h2 {
+text-align: center;
+color: white;
+padding: 34px 20px;
+}
+
+
+
+
+
+
+
