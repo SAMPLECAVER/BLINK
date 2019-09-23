@@ -63,9 +63,14 @@ padding: 50px 50px;
 
 }
 
-#button1{
+.button1{
 position: center;
 text-align: center;
 
 }
 
+.buttonblue{
+	background: red;
+	padding: 40px 50px;
+	color: white;
+}
