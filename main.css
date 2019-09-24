@@ -74,3 +74,26 @@ text-align: center;
 	padding: 40px 50px;
 	color: white;
 }
+
+.welcome{
+	width: 1000px;
+  height: auto;
+}
+
+#welcomediv{
+	text-align: center;
+}
+
+.inting{
+	padding-left: 60px;
+	padding-top: 50px;
+	width: 200px;
+ 	height: auto;
+}
+
+.inting2{
+	padding-left: 100px;
+	padding-top: 50px;
+	width: 200px;
+ 	height: auto;
+}
