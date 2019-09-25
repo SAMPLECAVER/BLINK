@@ -76,7 +76,8 @@ text-align: center;
 }
 
 .welcome{
-	width: 1000px;
+	padding-top: 40px;
+	width: 400px;
   height: auto;
 }
 
@@ -85,15 +86,16 @@ text-align: center;
 }
 
 .inting{
-	padding-left: 60px;
 	padding-top: 50px;
 	width: 200px;
  	height: auto;
 }
 
-.inting2{
-	padding-left: 95px;
-	padding-top: 50px;
-	width: 200px;
- 	height: auto;
+
+#imgs{
+	text-align: center;
+}
+
+li a:hover:not(.active) {
+	background-color: #
 }
