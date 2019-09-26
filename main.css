@@ -125,5 +125,6 @@ nav {
 
 .buttonblue:hover {
   background-color: #4CAF50; /* Green */
+  -webkit-transition-duration: 0.4s; /* Safari */
   color: white;
 
