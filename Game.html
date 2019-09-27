@@ -17,22 +17,30 @@
 		<li class="Assignments"><a href=Assignments.html>My Assignments</a></li>
 		<li class="Projects"><a href=Projects.html>Peronal Projects</a></li>
 		<li class="Game"><a href=Game.html>My Game</a></li>
-	
-		
-		</ul>
-	</nav>
-<div id="welcomediv">
-<img class=welcome src="https://i.gifer.com/XfQ8.gif">
-</div>
-<h2>Congratulations On Finding My Website. Go Ahead And Explore Around!</h2> 
-
-
-
-
-
-
-
-
-
+	</ul>
+</nav>
+	<button onclick="guess_number()">Guess my Favourite Number Game</button>
+	<script>
+		function guess_number(){
+  var secret = 210;
+  var guess;
+  while(guess != secret){ 
+    guess = prompt("Guess my favourite number if you think you know me");
+   
+    if(guess == secret){
+       alert("Took you long enough. Congrats though.");
+    }
+    else if(guess < secret){
+        alert("guess higher");        
+    }
+    else if(guess > secret){
+      alert("guess lower");
+    }
+    else{
+      alert("that's not a number");
+    }
+  }
+}
+</script>
 </body>
 </html>
