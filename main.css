@@ -85,8 +85,6 @@ text-align: center;
 	width: 200px;
  	height: auto;
 }
-
-
 #imgs{
 	text-align: center;
 }
@@ -96,7 +94,6 @@ li a:hover:not(.active) {
 
 	;
 }
-
 .active {
 	background-color: #4CAF50;
 }
@@ -111,6 +108,22 @@ nav {
 	 position: center;
 }
 
+.gamer{
+	border-radius: 50%;
+	transition-duration: .4s;
+	background: #4252C0;
+	padding: 120px 120px;
+	color: white;
+	border: 4px solid white;
+	font-family: Century Gothic;
+	font-size: 75px;
+
+}
+.gamer:hover {
+	 background-color: #9097BF;
+  -webkit-transition-duration: 0.4s;
+  color: white;
+}
 .buttonblue {
 	border-radius: 60%;
 	transition-duration: .4s;
@@ -120,9 +133,12 @@ nav {
 	border: 4px solid white;
 	font-family: Arial;
 }
-
+.gamediv {
+	text-align: center;
+	padding-top: 50px;
+}
 .buttonblue:hover {
   background-color: #A37C4E;
   -webkit-transition-duration: 0.4s;
   color: white;
-
+}
