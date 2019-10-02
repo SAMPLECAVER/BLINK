@@ -3,6 +3,7 @@
 <head>
 	<title>Omar Grade 11</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="game.js"></script>
 </head>
 <body>
 	
@@ -21,27 +22,6 @@
 </nav>
 <div class="gamediv">
 	<button class="gamer" onclick="guess_number()">Guess my Favourite Number Game</button> </div>
-	<script>
-		function guess_number(){
-  var secret = 210;
-  var guess;
-  while(guess != secret){ 
-    guess = prompt("Guess my favourite number if you think you know me");
-   
-    if(guess == secret){
-       alert("Took you long enough. Congrats though.");
-    }
-    else if(guess < secret){
-        alert("guess higher");        
-    }
-    else if(guess > secret){
-      alert("guess lower");
-    }
-    else{
-      alert("that's not a number");
-    }
-  }
-}
-</script>
+	
 </body>
 </html>
