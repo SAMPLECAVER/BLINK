@@ -138,7 +138,8 @@ border-radius: 6px;
 display: inline-block;
 transition: all 0.3s ease 0s;
 font-size: 12px;
-padding: 30px;
+padding: 25px;
+font-family: Century Gothic;
 }
 .gamediv {
 	text-align: center;
