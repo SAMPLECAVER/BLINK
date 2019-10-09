@@ -23,7 +23,7 @@ function ng(){
   var secret = "Omar"
   var guess;
   while(guess != secret){ 
-    guess = prompt("Who's the best at coding in the class?");
+    guess = prompt("Who's the best at coding in the class? (Case Sensitive)");
    
     if(guess == secret){
        alert("Yeah, that's right it's meee");
