@@ -37,10 +37,25 @@ function ng(){
 
 function cg(){
 var x = prompt("Pick a year any year");
-var y =(x/100)
-var z =(y + 1)
-    alert("This year is in the" + " " + Math.floor(z) + "th Century")
+var y =(x/100);
+var z =(Math.floor(y + 1));
+if (z == 12){
+    alert("This year is in the" + " " + z + "th Century");
+  } else if (z == 13){
+    alert("This year is in the" + " " + z + "th Century");
+ } else if (z == 11){
+   alert("This year is in the" + " " + z + "th Century");
+} else if (z % 10 == 1){
+   alert("This year is in the" + " " + z + "st Century");
+} else if (z % 10 == 2){
+    alert("This year is in the" + " " + z + "nd Century");
+} else if (z % 10 == 3){
+    alert("This year is in the" + " " + z + "rd Century");
+  } else {
+    alert("This year is in the" + " " + z + "th Century");
+  }
 }
+
 
 function angle(){
   var x = prompt("Enter an angle belonging to a triangle (Just the number)");
@@ -53,6 +68,19 @@ function hehe(){
 }
 
 function ic(){
-  var x = alert("ERROR. Duuudeeeee I'm still working on it leave me alone :(");
+  var x = 0;
+  while (x <= 99){
+    x = x + 1;
+    if(x % 4 == 0 && x % 10 == 0){
+      console.log("FourTen");
+    }else if(x % 10 == 0){
+      console.log("Ten");
+    }else if(x % 4 == 0){
+      console.log("Four");
+    }else{
+      console.log(x);
+    }
+  }
 }
+
 
