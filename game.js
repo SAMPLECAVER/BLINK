@@ -52,7 +52,7 @@ if (z == 12){
 } else if (z % 10 == 3){
     alert("This year is in the" + " " + z + "rd Century");
   } else {
-    alert("Not a valid year");
+    alert("This year is in the" + " " + z + "th Century");
   }
 }
 
