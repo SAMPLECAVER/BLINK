@@ -3,6 +3,7 @@
 <head>
 	<title>Omar Grade 11</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="game.js"></script>
 </head>
 <body>
 	
@@ -18,20 +19,23 @@
 		<li class="Projects"><a href=Projects.html>Personal Projects</a></li>
 		<li class="Game"><a href=Game.html>My Game</a></li>
 		<li class="Calculator"><a href=rizseminar.html>Rizwan's Calculator</a></li>
-
 	
-		
 		</ul>
-</nav> 
-		<div id="Working"> 
+</nav>
+<form>
+	<script type="text/javascript" src="game.js"></script>
+	Value 1: <input type="text" id="value1">
+	Value 2: <input type="text" id="value2">
+	Operator:
+	<select id="operator">
+		<option value="add">Add</option>
+		<option value="min">Minus</option>
+		<option value="div">Division</option>
+		<option value="mul">Multiply</option>
+	</select>
+	<button type="button" onclick="calc()">Calculate</button>
+</form>
 
-<img class=working src="https://media.giphy.com/media/JsmkQwwIKxL8CGKUrZ/giphy.gif">
-
-</div>
-
-
-
-
-
+<div id="result"></div>
 </body>
 </html>
