@@ -20,19 +20,16 @@
 }
 
 function ng(){
-  var secret = "Omar"
-  var guess;
-  while(guess != secret){ 
-    guess = prompt("Who's the best at coding in the class? (Case Sensitive)");
-   
-    if(guess == secret){
-       alert("Yeah, that's right it's meee");
-    }
-    else if(guess != secret){
-      alert("It's not that hard come on");
-    }
+  var x = prompt("Who is the best coder in the class?")
+  var y = (x.toLowerCase())
+  if (y == "omar"){
+    alert("Yeah that's right it's meeee");
+  }else {
+     alert("Come on it's not that hard");
   }
-}
+  }
+
+
 
 
 function cg(){
@@ -106,26 +103,30 @@ document.querySelector("#result").innerHTML = calculate;
 
 function m4(){
   var x = prompt("Write anything and I will tell you how long it is")
-  alert(x.length);
+  var y = (x.trim());
+  var z = y.split(" ").join("")
+  alert(z.length);
 }
 
 function ak74u(){
   var x = prompt("Enter your username");
-  x.toLowerCase();
+ var z = x.toLowerCase();
+ var o = (z.trim());
   var y = prompt("Now your password");
-  if (x == "pais", y == "isthebest"){
+  if (o == "pais" && y == "isthebest"){
     alert("True");
   } else {
     alert("False");
 }
 }
 
+
 function dragunov(){
   var x = prompt("This is a safe area, you can express your feelings here")
-  x.toLowerCase();
+  var i = x.toLowerCase();
   for (i=0; i < x.length; i+2); {
       x.charAt(i).toUpperCase();
-      return x;  
+      return i;  
  
 }
   }
