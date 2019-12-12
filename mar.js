@@ -124,10 +124,18 @@ function ak74u(){
 function dragunov(){
   var x = prompt("This is a safe area, you can express your feelings here")
   var i = x.toLowerCase();
-  for (i=0; i < x.length; i+2); {
-      x.charAt(i).toUpperCase();
-      return i;  
- 
+  for (i=0; i<x.length; i+=2);
 }
+
+function p90(){
+  var a = prompt("Give me something and I will encrypt it for you")
+  var y = a.replace(/a/g, "&").replace(/b/g, "?").replace(/c/g, "♫").replace(/d/g, "*").replace(/e/g, " ").replace(/f/g, "~").replace(/g/g, "g").replace(/h/g, "|").replace(/i/g, "+").replace(/j/g, "-").replace(/k/g, "!").replace(/l/g, ">").replace(/m/g, ",").replace(/n/g, ".").replace(/o/g, "♥").replace(/p/g, "`").replace(/q/g, "5").replace(/r/g, "♠").replace(/s/g, "♣").replace(/t/g, "♦").replace(/u/g, "1").replace(/v/g, "{").replace(/w/g, "♀").replace(/x/g, "☺").replace(/y/g, "0").replace(/z/g, "9")
+  alert(y.trim(""))
   }
 
+
+function p91(){
+  var a = prompt("Copy paste the encryption you got here")
+  var y = a.replace(/&/g, "a").replace(/?/g, "b").replace(/♫/g, "c").replace(/d/g, "*").replace(/ /g, "e").replace(/~/g, "f").replace(/~/g, "g").replace(/|/g, "h").replace(/+/g, "i").replace(/-/g, "j").replace(/!/g, "k").replace(/>/g, "l").replace(/,/g, "m").replace(/./g, "n").replace(/♥/g, "o").replace(/`/g, "p").replace(/5/g, "q").replace(/♠/g, "r").replace(/♣/g, "s").replace(/♦/g, "t").replace(/1/g, "u").replace(/{/g, "v").replace(/♀/g, "w").replace(/☺/g, "x").replace(/0/g, "y").replace(/9/g, "z")
+  alert(y)
+}
