@@ -1,4 +1,4 @@
-	function guess_number(){
+function guess_number(){
   var secret = 210;
   var guess;
   while(guess != secret){ 
@@ -124,18 +124,22 @@ function ak74u(){
 function dragunov(){
   var x = prompt("This is a safe area, you can express your feelings here")
   var i = x.toLowerCase();
-  for (i=0; i<x.length; i+=2);
+  for (i=0; i < x.length; i+2); {
+      x.charAt(i).toUpperCase();
+      return i;  
+ 
 }
+  }
 
 function p90(){
   var a = prompt("Give me something and I will encrypt it for you")
-  var y = a.replace(/a/g, "&").replace(/b/g, "?").replace(/c/g, "♫").replace(/d/g, "*").replace(/e/g, " ").replace(/f/g, "~").replace(/g/g, "g").replace(/h/g, "|").replace(/i/g, "+").replace(/j/g, "-").replace(/k/g, "!").replace(/l/g, ">").replace(/m/g, ",").replace(/n/g, ".").replace(/o/g, "♥").replace(/p/g, "`").replace(/q/g, "5").replace(/r/g, "♠").replace(/s/g, "♣").replace(/t/g, "♦").replace(/u/g, "1").replace(/v/g, "{").replace(/w/g, "♀").replace(/x/g, "☺").replace(/y/g, "0").replace(/z/g, "9")
+  var y = a.replace(/a/gi, "&").replace(/b/gi, "7").replace(/c/gi, "4").replace(/d/gi, "#").replace(/e/gi, "@").replace(/f/gi, "~").replace(/g/gi, "<").replace(/h/gi, ":").replace(/i/gi, "5").replace(/j/gi, "-").replace(/k/gi, "!").replace(/l/gi, ">").replace(/m/gi, ",").replace(/n/gi, "3").replace(/o/gi, "6").replace(/p/gi, "`").replace(/q/gi, "1").replace(/r/gi, "'").replace(/s/gi, "8").replace(/t/gi, "2").replace(/u/gi, "%").replace(/v/gi, "{").replace(/w/gi, "=").replace(/x/gi, "☺").replace(/y/gi, "0").replace(/z/gi, "9");
   alert(y.trim(""))
-  }
+}
 
 
 function p91(){
   var a = prompt("Copy paste the encryption you got here")
-  var y = a.replace(/&/g, "a").replace(/?/g, "b").replace(/♫/g, "c").replace(/d/g, "*").replace(/ /g, "e").replace(/~/g, "f").replace(/~/g, "g").replace(/|/g, "h").replace(/+/g, "i").replace(/-/g, "j").replace(/!/g, "k").replace(/>/g, "l").replace(/,/g, "m").replace(/./g, "n").replace(/♥/g, "o").replace(/`/g, "p").replace(/5/g, "q").replace(/♠/g, "r").replace(/♣/g, "s").replace(/♦/g, "t").replace(/1/g, "u").replace(/{/g, "v").replace(/♀/g, "w").replace(/☺/g, "x").replace(/0/g, "y").replace(/9/g, "z")
+  var y = a.replace(/&/gi, "a").replace(/7/gi, "b").replace(/4/gi, "c").replace(/#/gi, "d").replace(/@/gi, "e").replace(/~/gi, "f").replace(/</gi, "g").replace(/:/gi, "h").replace(/5/gi, "i").replace(/-/gi, "j").replace(/!/gi, "k").replace(/>/gi, "l").replace(/,/gi, "m").replace(/3/gi, "n").replace(/6/gi, "o").replace(/`/gi, "p").replace(/1/gi, "q").replace(/'/gi, "r").replace(/8/gi, "s").replace(/2/gi, "t").replace(/%/gi, "u").replace(/{/gi, "v").replace(/=/gi, "w").replace(/☺/gi, "x").replace(/0/gi, "y").replace(/9/gi, "z");
   alert(y)
 }
