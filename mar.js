@@ -121,15 +121,11 @@ function ak74u(){
 }
 
 
-function dragunov(){
+function dragunov(x){
   var x = prompt("This is a safe area, you can express your feelings here")
-  var i = x.toLowerCase();
-  for (i=0; i < x.length; i+2); {
-      x.charAt(i).toUpperCase();
-      return i;  
+  alert(x.split('').map((v, i) => i % 2 == 0 ? v.toLowerCase() : v.toUpperCase()).join(''));
  
 }
-  }
 
 function p90(){
   var a = prompt("Give me something and I will encrypt it for you")
